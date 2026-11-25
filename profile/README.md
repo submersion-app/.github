@@ -14,32 +14,58 @@ It runs on iOS, Android, macOS, Windows, Linux and in the browser.
 
 ## Repositories
 
-### The app
-
-| Repository | What it is for |
-| --- | --- |
-| [submersion](https://github.com/submersion-app/submersion) | The app itself, built with Flutter. Source code, issues, discussions and stable releases all live here. **Start here.** |
-
-### Data the app downloads
-
-| Repository | What it is for |
-| --- | --- |
-| [site-catalogue](https://github.com/submersion-app/site-catalogue) | The built-in catalogue of about 21,000 dive sites, wrecks and artificial reefs. Holds the source fetchers, the merge, researched sites with their evidence, and the releases the app ships. |
-| [species-pack](https://github.com/submersion-app/species-pack) | The model pack behind on-device marine life identification. Holds the pipeline that builds and checks the pack; its releases are what the app downloads. |
-
-### Dive computers
-
-| Repository | What it is for |
-| --- | --- |
-| [libdivecomputer](https://github.com/submersion-app/libdivecomputer) | Submersion's fork of [libdivecomputer](https://www.libdivecomputer.org/), the library that talks to 350+ dive computers. The app's patches live on the [`submersion-patches`](https://github.com/submersion-app/libdivecomputer/tree/submersion-patches) branch. |
-
-### Builds and hosting
-
-| Repository | What it is for |
-| --- | --- |
-| [beta-builds](https://github.com/submersion-app/beta-builds) | Beta builds, published after every green merge to the app's `main` branch. Newest features first; a beta may upgrade your dive log ahead of the stable release. |
-| [web](https://github.com/submersion-app/web) | The browser build served at [web.submersion.app](https://web.submersion.app). Deployed automatically from the app repository; do not edit it directly. |
-| [submersion-website](https://github.com/submersion-app/submersion-website) | The [submersion.app](https://submersion.app) website, including the landing pages for cylinder and gear tags. |
+<table>
+<tr>
+<td colspan="2" valign="top">
+<b><a href="https://github.com/submersion-app/submersion">submersion</a></b><br>
+<sub>The app</sub><br>
+<a href="https://github.com/submersion-app/submersion/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/submersion-app/submersion?sort=date&display_name=tag&label=release&style=flat-square"></a>
+<p>The app itself, built with Flutter: source code, issues, discussions and stable releases. <b>Start here.</b></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<b><a href="https://github.com/submersion-app/site-catalogue">site-catalogue</a></b><br>
+<sub>Data</sub><br>
+<a href="https://github.com/submersion-app/site-catalogue/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/submersion-app/site-catalogue?sort=date&display_name=tag&label=release&style=flat-square"></a>
+<p>The built-in catalogue of about 21,000 dive sites, wrecks and artificial reefs.</p>
+</td>
+<td width="50%" valign="top">
+<b><a href="https://github.com/submersion-app/species-pack">species-pack</a></b><br>
+<sub>Data</sub><br>
+<a href="https://github.com/submersion-app/species-pack/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/submersion-app/species-pack?sort=date&display_name=tag&label=release&style=flat-square"></a>
+<p>The model pack behind on-device marine life identification.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<b><a href="https://github.com/submersion-app/libdivecomputer">libdivecomputer</a></b><br>
+<sub>Dive computers</sub><br>
+<a href="https://github.com/submersion-app/libdivecomputer/commits/submersion-patches"><img alt="Last updated" src="https://img.shields.io/github/last-commit/submersion-app/libdivecomputer/submersion-patches?label=updated&style=flat-square"></a>
+<p>Submersion's fork of <a href="https://www.libdivecomputer.org/">libdivecomputer</a>, which talks to 350+ dive computers.</p>
+</td>
+<td width="50%" valign="top">
+<b><a href="https://github.com/submersion-app/beta-builds">beta-builds</a></b><br>
+<sub>Builds</sub><br>
+<a href="https://github.com/submersion-app/beta-builds/releases/latest"><img alt="Latest beta" src="https://img.shields.io/github/v/release/submersion-app/beta-builds?sort=date&display_name=tag&label=beta&style=flat-square"></a>
+<p>Builds from every green merge to <code>main</code>; a beta may upgrade your log ahead of the stable release.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<b><a href="https://github.com/submersion-app/web">web</a></b><br>
+<sub>Hosting</sub><br>
+<a href="https://github.com/submersion-app/web/commits"><img alt="Last updated" src="https://img.shields.io/github/last-commit/submersion-app/web?label=updated&style=flat-square"></a>
+<p>The browser build at <a href="https://web.submersion.app">web.submersion.app</a>, deployed from the app repository.</p>
+</td>
+<td width="50%" valign="top">
+<b><a href="https://github.com/submersion-app/submersion-website">submersion-website</a></b><br>
+<sub>Hosting</sub><br>
+<a href="https://github.com/submersion-app/submersion-website/commits"><img alt="Last updated" src="https://img.shields.io/github/last-commit/submersion-app/submersion-website?label=updated&style=flat-square"></a>
+<p>The <a href="https://submersion.app">submersion.app</a> website, including the cylinder and gear tag pages.</p>
+</td>
+</tr>
+</table>
 
 ## Get involved
 
